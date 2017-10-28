@@ -16,5 +16,6 @@ function hide(){
 }
 confirm.onclick=hide;
 cancel.onclick=hide;
+mask.onclick=hide;
 
 
