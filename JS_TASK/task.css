@@ -1,0 +1,44 @@
+body {
+  height: 100%;
+
+}
+button{
+  border: 2px solid #F38579;
+ 
+  border-radius: 2px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  background-color: #C07C7C;
+}
+.mask{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color:  rgba(0, 0, 0, .5);
+  display: none;
+  
+}
+
+.modal_flow{
+  background-color: #CB8787;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 150px;
+  display: none;
+}
+
+.confirm,.cancel{
+  position: relative;
+  left: 20px;
+  bottom: 15px;
+
+}
