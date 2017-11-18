@@ -1,0 +1,10 @@
+body{
+  background-image: url(back.jpg);
+
+}
+.login{
+  margin-left:50px;
+  margin-top: 50px;
+  background-color: gainsboro;
+  width: 300px;
+}

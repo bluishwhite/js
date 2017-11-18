@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <title>Login</title>
+</head>
+<body>
+  <div >
+    <h6> Please login or regist !</h6>
+  <div>
+  <div class="login">
+    <form   method="post" enctype="text/plain" onsubmit="AJAXSubmit(this); return false;">
+      <div>
+        <span>输入用户名</span>
+        <input id="user" onblur="checkusr()" type="text">
+      </div>
+      <div>
+        <span>输入密码</span>
+        <input id="password" onblur="checkcode()" type="text">
+      </div>
+      <div>
+        <span>再次输入密码</span>
+        <input id="again" onblur="checkagain()" type="text">
+      </div>
+      <div>
+        <span>Email</span>
+        <input type="text" id="email" onblur="checkemail()">
+      </div>
+      <div>
+        <span>手机</span>
+        <input type="text" id="Phone" onblur="checkphone()">
+      </div>
+      <button onclick="submit()"> Login</button> <button onclick="register()"> Register</button>
+    </form>
+  </div>
+  <script src="check.js"></script>
+</body>
+</html>
